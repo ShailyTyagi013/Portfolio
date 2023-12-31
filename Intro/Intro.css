@@ -1,0 +1,293 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: white;
+     
+}
+.navigation{
+    background-color: white;
+    display: inline-block;
+    width: 70%;
+    border-bottom: 0.5px solid black;
+    
+}
+nav{
+    padding: 10px 0;
+    display: flex;
+    /* justify-content: space-around; */
+    margin: 0 50px;
+    
+}
+.right ul {
+    display: flex;
+    list-style: none;
+    margin:  0 30px;
+}
+.right ul li{
+    margin: 0 20px;
+    
+}
+.right ul li a{
+    color: black;
+    text-decoration: none;
+    font-size: 18px;
+}
+.right ul li a:hover{
+    color: blueviolet;
+    
+}
+.left{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+    color: rgb(194, 75, 95);
+    font-family:cursive;
+}
+
+.color-div{
+    background: linear-gradient(180deg, rgb(243, 243, 111), white);
+    display: inline-block;
+    float: right;
+    width: 30%;
+    height: 80vh;
+    position: relative;
+    
+   
+   
+    
+}
+
+.btn-cl{
+    padding: 7px 0;
+    border-bottom: 0.5px solid black; 
+}
+.btn{
+    width: 140px;
+    font-size: 16px;
+    background-color: rgb(82, 6, 6);
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    margin: 0px 20px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+    transition: 0.5s;
+}
+.btn:hover{
+    background-color: white;
+         color: rgb(24, 1, 24);
+         cursor: pointer;
+}
+.color-div .image{
+    position: relative;
+    
+    bottom: -60px;
+    right: 100px;
+}
+ .color-div .image img{
+    width: 70%;
+    height: 70%;
+    max-width: 100%;
+    border-radius: 10px;
+    opacity: 0.9;
+   
+}
+.content{
+    width: 40%;
+    /* background-color: grey; */
+    margin: 80px 250px;
+    padding: 20px;
+}
+.content h5{
+    color: green;
+    font-weight: 800;
+}
+.content h1{
+    color: black;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 10px;
+}
+.first-para p{
+    color: green;
+    font-size: 18px;
+}
+.second-para p{
+     color: black;
+    font-size: 16px;
+    margin-top: 20px;
+}
+.projects h1{
+    color: black;
+    font-size: 40px;
+    font-weight: 800;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.projects{
+    /* padding: 0px; */
+}
+.projects-img{
+    /* background-color: papayawhip; */
+    height: 115vh;
+    width: 100%;
+    padding: 10px 10px 10px 50px;
+    
+    
+  
+}
+.mid-box{
+    /* background-color: rgb(163, 153, 153);
+    opacity: 0.9; */
+    display: inline-block;
+    margin: 50px;
+    width: 25%;
+    /* height: 50%; */
+    position: relative;
+    
+}
+.mid-box .card{
+    position: relative;
+    
+    top: -20px;
+    /* left: 20px; */
+}
+.mid-box .card img{
+    width: 100%;
+    height: 70%;
+    max-width: 100%;
+    border-radius: 10px;
+    opacity: 1;
+   
+}
+.mid-box .card img:hover{
+    opacity: 0.9;
+    top: -30px;
+}
+
+.mid-box p{
+    text-align: center;
+}
+.mid-box button{
+    width: 140px;
+    font-size: 16px;
+    background-color: rgb(44, 39, 39);
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    margin: 0px 20px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+   margin: 10px 100px;
+}
+.mid-box button:hover{
+    cursor: pointer;
+    background-color: rgb(87, 84, 85);
+}
+.btn-resume{
+    width: 180px;
+    font-size: 16px;
+    background-color: rgb(10, 10, 10);
+    color: white;
+    font-weight: bold;
+    padding: 18px;
+    margin: 0px 20px;
+    border-radius: 50px;
+    outline: none;
+    border: none;
+   margin: 10px 100px;
+}
+.btn-resume:hover{
+    cursor: pointer;
+    background-color: rgb(43, 41, 41);
+}
+.skill{
+    padding: 20px;
+    width: 100%;
+    /* background-color: yellow; */
+    margin-top: 10px;
+} 
+    
+
+.main-box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+}
+.skill h1{
+    text-align: center;
+    font-size: 40px;
+}
+.skills-box{
+    /* background-color: pink; */
+    width: 60%;
+    text-align: center;
+   
+}
+.skills-box ion-icon{
+    font-size: 100px;
+    margin:  60px;
+}
+.skills-box .html{
+    color: red;
+}
+.skills-box .css{
+    color: blue;
+}
+.skills-box .js{
+    color: yellow;
+}
+.skills-box .react{
+    color: aqua;
+}
+
+.skills-content{
+    /* background-color: aqua; */
+    width: 50%;
+    text-align: center;
+    padding: 50px;
+}
+
+.get-in-touch{
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: 30vh;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+.get-in-touch-para{
+    
+    width: 60%;
+   padding: 20px;
+}
+.get-in-touch-second-para{
+    /* background-color: pink; */
+    width: 60%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+ion-icon{
+  font-size: 25px;
+  margin: 10px;
+  color: gray;
+  opacity: 0.9;
+}
+ion-icon:hover{
+    cursor: pointer;
+    color:gray;
+    font-size: 28px;
+}
